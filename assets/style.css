@@ -33,7 +33,6 @@ header img {
 }
 
 nav {
-  float: right;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 25px;
   width: 100vw;
@@ -57,7 +56,7 @@ li {
   height: 100%;
 }
 
-a {
+header a {
   z-index: 1;
   color: white;
   text-decoration: none;
@@ -107,7 +106,7 @@ li:hover a:before {
   background-image: url("./images/background2.jfif");
 }
 h2 {
-  font-size: 3em;
+  font-size: 52px;
   text-align: center;
   border-bottom: 5px solid #0077b5;
   margin: 5px;
@@ -117,6 +116,7 @@ h2 {
 
 h3 {
   color: white;
+  font-size: 28px;
 }
 p {
   color: white;
@@ -232,4 +232,16 @@ p {
   color: black;
   font-size: 2em;
   border-radius: 10px;
+}
+
+/* Media Screen Adjustments */
+@media screen and (max-width: 768px) {
+  .background article p {
+    font-size: 8px;
+  }
+}
+@media screen and (max-width: 375px) {
+  #aboutme {
+    font-size: smaller;
+  }
 }
