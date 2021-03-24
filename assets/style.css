@@ -338,19 +338,6 @@ p {
     display: flex;
     flex-direction: column;
   }
-  #contactme {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-  }
-  #contactme img {
-    height: 50px;
-    width: 50px;
-  }
-  #contactme > div {
-    margin-left: 75px;
-    margin-bottom: 20px;
-  }
 }
 @media screen and (max-width: 641px) {
   /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
