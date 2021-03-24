@@ -269,10 +269,9 @@ p {
 @media screen and (max-width: 1025px) {
   /* big landscape tablets, laptops, and desktops */
 }
-@media screen and (max-width: 975px) {
+@media screen and (max-width: 1025px) {
   #header-background {
-    background-image: none;
-    background-color: grey;
+    background-image: url("./images/headernew.png");
     display: flex;
     flex-direction: column;
   }
@@ -280,13 +279,16 @@ p {
     background-color: grey;
   }
   .background {
-    background-image: none;
-    background: darkgreen;
+    background-image: url("./images/new2.jpg");
     font-size: 1em;
+  }
+  header img {
+    align-self: center;
   }
   header h1 {
     font-size: small;
     flex: 0 1 0px;
+    align-self: center;
   }
 
   ul {
@@ -296,6 +298,7 @@ p {
   }
   body nav ul li a {
     font-size: 1em;
+    margin-right: 50px;
   }
   #aboutme {
     display: flex;
@@ -327,12 +330,14 @@ p {
     flex-direction: column;
   }
   #contactme {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
   }
   #contactme img {
     height: 50px;
     width: 50px;
+    margin-left: 50px;
   }
 }
 @media screen and (max-width: 641px) {
