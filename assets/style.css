@@ -300,10 +300,12 @@ p {
     font-size: 1em;
     margin-right: 50px;
   }
-  #aboutme {
+  #aboutme article p {
     display: flex;
-    flex-direction: wrap;
+    flex-wrap: wrap;
+    margin: 0px 20px;
   }
+
   h2 {
     border-bottom-color: grey;
     font-size: 1em;
