@@ -337,7 +337,6 @@ p {
   #contactme img {
     height: 50px;
     width: 50px;
-    margin-left: 50px;
   }
 }
 @media screen and (max-width: 641px) {
