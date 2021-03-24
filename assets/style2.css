@@ -120,6 +120,7 @@
   justify-content: center;
   align-items: center;
 }
+/* media q's for the contact me section */
 @media screen and (max-width: 1025px) {
 .lefter,
   .left,

@@ -126,6 +126,7 @@ h3 {
 p {
   color: white;
   text-indent: 50px;
+  font-size: 18px;
 }
 
 /* My Portfolio Works Section */
@@ -209,7 +210,7 @@ p {
   grid-template-rows: 70px 100px;
   padding-top: 50px;
 }
-.contactheader {
+#contactheader {
   padding-top: 30px;
 }
 
@@ -263,12 +264,7 @@ p {
 }
 
 /* Media Screen Adjustments */
-@media screen and (max-width: 1281px) {
-  /* hi-res laptops and desktops */
-}
-@media screen and (max-width: 1025px) {
-  /* big landscape tablets, laptops, and desktops */
-}
+
 @media screen and (max-width: 1025px) {
   #header-background {
     background-image: url("./images/headernew.png");
@@ -339,15 +335,9 @@ p {
     flex-direction: column;
   }
 }
-@media screen and (max-width: 641px) {
-  /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
-}
 @media screen and (max-width: 481px) {
   #worksection {
     display: flex;
     flex-direction: column;
   }
-}
-@media screen and (max-width: 320px) {
-  /* smartphones, iPhone, portrait 480x320 phones */
 }
