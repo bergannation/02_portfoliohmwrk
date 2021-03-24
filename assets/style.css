@@ -269,10 +269,12 @@ p {
 @media screen and (max-width: 1025px) {
   /* big landscape tablets, laptops, and desktops */
 }
-@media screen and (max-width: 961px) {
+@media screen and (max-width: 975px) {
   #header-background {
     background-image: none;
     background-color: grey;
+    display: flex;
+    flex-direction: column;
   }
   body {
     background-color: grey;
@@ -282,8 +284,9 @@ p {
     background: darkgreen;
     font-size: 1em;
   }
-  body h1 {
-    font-size: 2em;
+  header h1 {
+    font-size: small;
+    flex: 0 1 0px;
   }
 
   ul {
@@ -306,6 +309,9 @@ p {
     display: flex;
     flex-direction: column;
   }
+  #worksection .project1 img {
+    height: 150px;
+  }
   .image2,
   .image3,
   .image4,
@@ -315,6 +321,18 @@ p {
   }
   h3 {
     font-size: 1em;
+  }
+  .contactheader {
+    display: flex;
+    flex-direction: column;
+  }
+  #contactme {
+    display: flex;
+    flex-direction: column;
+  }
+  #contactme img {
+    height: 50px;
+    width: 50px;
   }
 }
 @media screen and (max-width: 641px) {
