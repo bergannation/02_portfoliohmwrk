@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #9b9898;
+  background-color: #92785b;
   margin: 0;
 }
 /* Navigation Bar */
@@ -70,7 +70,7 @@ li:before {
   position: absolute;
   height: 33.33%;
   width: 0;
-  background-color: grey;
+  background-color: rgb(155, 152, 152);
   right: 0;
   z-index: 0;
   top: 33.33%;
@@ -81,21 +81,23 @@ li:after {
   position: absolute;
   height: 33.33%;
   width: 0;
-  background-color: grey;
+  background-color: rgb(155, 152, 152);
   left: 0;
   z-index: 0;
   bottom: 0;
   transition: all 0.5s;
+  border-radius: 0px 0px 10px 10px;
 }
 a:before {
   position: absolute;
   content: "";
   height: 33.33%;
   width: 0;
-  background-color: grey;
+  background-color: rgb(155, 152, 152);
   bottom: 66.66%;
   left: 0;
   transition: all 0.5s;
+  border-radius: 10px 10px 0px 0px;
 }
 li:hover:before,
 li:hover:after,
@@ -104,13 +106,13 @@ li:hover a:before {
 }
 /*Main background image */
 .background {
-  background-image: url("./images/background2.jfif");
+  background-image: url("./images/background5.jfif");
 }
 /* Header and paragraph font settings */
 h2 {
   font-size: 52px;
   text-align: center;
-  border-bottom: 5px solid #0077b5;
+  border-bottom: 5px solid #92785b;
   margin: 5px;
   padding: 10px;
   color: white;
@@ -173,6 +175,32 @@ p {
   grid-row: 3/3;
 }
 
+.image1,
+.image2,
+.image3,
+.image4,
+.image5 {
+  border-radius: 10px;
+  background-color: rgb(231, 231, 231);
+  text-decoration: none;
+  padding: 2px 2px;
+  font-family: sans-serif;
+  font-size: 25px;
+  color: #fff;
+  border-radius: 10px;
+  display: inline-block;
+}
+.image1:hover,
+.image2:hover,
+.image3:hover,
+.image4:hover,
+.image5:hover {
+  -webkit-box-shadow: 0px 0px 50px 0px pink;
+  -moz-box-shadow: 0px 0px 50px 0px pink;
+  box-shadow: 0px 0px 50px 0px pink;
+  transition: 0.5s ease;
+}
+
 /* Contact me Section */
 #contactme {
   display: grid;
@@ -196,9 +224,6 @@ p {
   height: 100px;
   width: 100px;
   border-radius: 10px;
-}
-#github img {
-  width: 200px;
 }
 
 #resume:hover::after {
