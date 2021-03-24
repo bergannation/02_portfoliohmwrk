@@ -131,8 +131,8 @@ p {
 /* My Portfolio Works Section */
 #work {
   display: grid;
-  grid-template-columns: 40px 1fr 40px;
-  grid-template-rows: 90px 1fr;
+  grid-template-columns: 10px 1fr 10px;
+  grid-template-rows: 70px 1fr;
 }
 
 #work > h2 {
@@ -310,8 +310,13 @@ p {
     border-bottom-color: grey;
     font-size: 1em;
   }
+  #work {
+    display: grid;
+    grid-template-columns: 10px 1fr 10px;
+    grid-template-rows: 10px 1fr;
+  }
   #worksection {
-    display: flex;
+    display: grid;
     flex-direction: column;
   }
   #worksection .project1 img {
@@ -323,9 +328,11 @@ p {
   .image5 {
     height: 55%;
     width: 55%;
+    margin: 10px 0px 10px 0px;
   }
   h3 {
     font-size: 1em;
+    margin: 10px 0px 10px 0px;
   }
   .contactheader {
     display: flex;
@@ -342,13 +349,17 @@ p {
   }
   #contactme > div {
     margin-left: 75px;
+    margin-bottom: 20px;
   }
 }
 @media screen and (max-width: 641px) {
   /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
 }
 @media screen and (max-width: 481px) {
-  /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+  #worksection {
+    display: flex;
+    flex-direction: column;
+  }
 }
 @media screen and (max-width: 320px) {
   /* smartphones, iPhone, portrait 480x320 phones */
