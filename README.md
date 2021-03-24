@@ -55,7 +55,7 @@ Github: bergannation
 /
 02_portfoliohmwrk
 
-Deployed URL: https://bergannation.github.io/01_accessibilityhmwrk/
+Deployed URL: https://bergannation.github.io/02_portfoliohmwrk/
 
 ## Website Mock-Up
 
