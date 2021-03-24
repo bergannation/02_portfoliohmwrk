@@ -338,6 +338,9 @@ p {
     height: 50px;
     width: 50px;
   }
+  #contactme > div {
+    margin-left: 75px;
+  }
 }
 @media screen and (max-width: 641px) {
   /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
