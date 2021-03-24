@@ -46,6 +46,7 @@ ul {
   align-items: center;
   flex-direction: row;
   justify-content: space-evenly;
+  width: 100%;
 }
 
 li {
@@ -262,13 +263,66 @@ p {
 }
 
 /* Media Screen Adjustments */
-@media screen and (max-width: 768px) {
-  .background article p {
-    font-size: 8px;
+@media screen and (max-width: 1281px) {
+  /* hi-res laptops and desktops */
+}
+@media screen and (max-width: 1025px) {
+  /* big landscape tablets, laptops, and desktops */
+}
+@media screen and (max-width: 961px) {
+  #header-background {
+    background-image: none;
+    background-color: grey;
+  }
+  body {
+    background-color: grey;
+  }
+  .background {
+    background-image: none;
+    background: darkgreen;
+    font-size: 1em;
+  }
+  body h1 {
+    font-size: 2em;
+  }
+
+  ul {
+    display: flex;
+    flex-flow: column wrap;
+    flex-basis: auto;
+  }
+  body nav ul li a {
+    font-size: 1em;
+  }
+  #aboutme {
+    display: flex;
+    flex-direction: wrap;
+  }
+  h2 {
+    border-bottom-color: grey;
+    font-size: 1em;
+  }
+  #worksection {
+    display: flex;
+    flex-direction: column;
+  }
+  .image2,
+  .image3,
+  .image4,
+  .image5 {
+    height: 55%;
+    width: 55%;
+  }
+  h3 {
+    font-size: 1em;
   }
 }
-@media screen and (max-width: 375px) {
-  #aboutme {
-    font-size: smaller;
-  }
+@media screen and (max-width: 641px) {
+  /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+}
+@media screen and (max-width: 481px) {
+  /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+}
+@media screen and (max-width: 320px) {
+  /* smartphones, iPhone, portrait 480x320 phones */
 }
