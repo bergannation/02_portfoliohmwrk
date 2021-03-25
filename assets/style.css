@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #92785b;
+  background: radial-gradient(ellipse at bottom, #1b2735, #090a0f);
   margin: 0;
 }
 /* Navigation Bar */
@@ -17,33 +17,31 @@ header {
   color: #ffffff;
 }
 #header-background {
-  background-image: url("./images/header.jpg");
+  background-image: url("./images/background8.jpg");
   width: 100%;
-}
-header h1 {
-  flex: 1 0 200px;
-  font-size: 48px;
-  margin-left: 10px;
+  background-position: center center;
 }
 
 header img {
   max-height: 200px;
   max-width: 200px;
   border-radius: 10px;
+  margin: 10px;
 }
 
 nav {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 25px;
-  width: 100vw;
+  width: 100%;
+  align-content: center;
 }
 
 ul {
   list-style-type: none;
-  margin: 0;
   padding: 0;
   display: flex;
-  align-items: center;
+  margin-top: 60px;
+  align-content: center;
   flex-direction: row;
   justify-content: space-evenly;
   width: 100%;
@@ -62,7 +60,7 @@ header a {
   color: white;
   text-decoration: none;
   font-weight: 500;
-  font-size: 38px;
+  font-size: 40px;
   padding: 20px 5px;
 }
 /* Nav bar hover elements */
@@ -71,7 +69,7 @@ li:before {
   position: absolute;
   height: 33.33%;
   width: 0;
-  background-color: rgb(155, 152, 152);
+  background-color: #1b2735;
   right: 0;
   z-index: 0;
   top: 33.33%;
@@ -82,7 +80,7 @@ li:after {
   position: absolute;
   height: 33.33%;
   width: 0;
-  background-color: rgb(155, 152, 152);
+  background-color: #1b2735;
   left: 0;
   z-index: 0;
   bottom: 0;
@@ -94,7 +92,7 @@ a:before {
   content: "";
   height: 33.33%;
   width: 0;
-  background-color: rgb(155, 152, 152);
+  background-color: #1b2735;
   bottom: 66.66%;
   left: 0;
   transition: all 0.5s;
@@ -107,14 +105,13 @@ li:hover a:before {
 }
 /*Main background image */
 .background {
-  background-image: url("./images/background5.jfif");
+  background-image: url("./images/new2.jpg");
   background-position: center top;
 }
 /* Header and paragraph font settings */
 h2 {
   font-size: 52px;
   text-align: center;
-  border-bottom: 5px solid #92785b;
   margin: 5px;
   padding: 10px;
   color: white;
@@ -126,8 +123,9 @@ h3 {
 }
 p {
   color: white;
-  text-indent: 50px;
+  margin: 0px 40px;
   font-size: 18px;
+  text-align: center;
 }
 
 /* My Portfolio Works Section */
@@ -205,68 +203,22 @@ p {
 }
 
 /* Contact me Section */
-#contactme {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 70px 100px;
-  padding-top: 50px;
-}
 #contactheader {
-  padding-top: 30px;
+  margin-bottom: 40px;
 }
-
-#contactme > div {
-  align-self: center;
-  margin-left: 100px;
-}
-
-#resume img,
-#linkedin img,
-#github img,
-#twitter img {
-  height: 100px;
-  width: 100px;
-  border-radius: 10px;
-}
-
-#resume:hover::after {
-  content: "Resume";
-  position: absolute;
-  background-color: darkgreen;
-  color: black;
-  font-size: 2em;
-  border-radius: 10px;
-}
-
-#linkedin:hover::after {
-  content: "Linkedin";
-  position: absolute;
-  background-color: #0077b5;
-  color: black;
-  font-size: 2em;
-  border-radius: 10px;
-}
-
-#github:hover::after {
-  content: "GitHub";
-  position: absolute;
-  background-color: white;
-  color: black;
-  font-size: 2em;
-  border-radius: 10px;
-}
-#twitter:hover::after {
-  content: "Twitter";
-  position: absolute;
-  background-color: #1da1f2;
-  color: black;
-  font-size: 2em;
-  border-radius: 10px;
+.body {
+  display: flex;
+  flex-direction: column;
 }
 
 /* Media Screen Adjustments */
+@media screen and (max-width: 1340px) {
+  body nav ul li a {
+    font-size: 24px;
+  }
+}
 
-@media screen and (max-width: 1025px) {
+@media screen and (max-width: 1140px) {
   #header-background {
     background-image: url("./images/headernew.png");
     display: flex;
@@ -282,10 +234,10 @@ p {
   header img {
     align-self: center;
   }
-  header h1 {
-    font-size: small;
-    flex: 0 1 0px;
-    align-self: center;
+
+  #container #shadow {
+    font-size: medium;
+    margin: 50px 20px 0px 0px;
   }
 
   ul {

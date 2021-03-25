@@ -61,6 +61,9 @@ Deployed URL: https://bergannation.github.io/02_portfoliohmwrk/
 
 The following image shows the web application's appearance and functionality:
 
-![The Portfolio webpage includes a navigation bar, a header profile image, an "About Me", "My Works", and a "Contact Me" section. Each section includes text and images.](./assets/images/screencapture2.png)
+![The Portfolio webpage includes a navigation bar, a header profile image, an "About Me", "My Works", and a "Contact Me" section. Each section includes text and images.](./assets/images/screencapture2.png) ![This is also a screencapture from a smaller device](./assets/images/screencapture3.png)
 
 ## Credits
+
+Amazing Techno Tutorials
+https://www.youtube.com/channel/UCX6g7OirMyfEBn5Oxqu-wGA
