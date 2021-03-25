@@ -173,9 +173,16 @@ p {
 }
 
 /* Media Screen Adjustments */
-@media screen and (max-width: 1340px) {
-  body nav ul li a {
-    font-size: 24px;
+@media screen and (max-width: 1430px) {
+  ul {
+    display: flex;
+    flex-flow: column wrap;
+  }
+  #testbutton,
+  #testbutton2,
+  #testbutton3,
+  #testbutton4 {
+    margin: 10px;
   }
 }
 
@@ -184,9 +191,6 @@ p {
     background-image: url("./images/headernew.png");
     display: flex;
     flex-direction: column;
-  }
-  body {
-    background-color: grey;
   }
   .background {
     background-image: url("./images/new2.jpg");

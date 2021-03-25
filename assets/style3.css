@@ -6,7 +6,7 @@ body section #shadow {
   transform: translate(-50%, -50%);
   font-size: 2em;
   letter-spacing: 20px;
-  font-family: "bad script";
+  font-family: "bad script", "Segoe Script", "Stencil";
   color: #fff;
   line-height: 2;
 }
@@ -207,9 +207,6 @@ body section #shadow {
 }
 @media screen and (max-width: 1420px) {
   nav {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
   }
   a#testbutton,
   a#testbutton2,
