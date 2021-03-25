@@ -51,9 +51,7 @@ If your README is long, add a table of contents to make it easy for users to fin
 
 Below are links to access this live website and repository.
 
-Github: bergannation
-/
-02_portfoliohmwrk
+Github: https://github.com/bergannation/02_portfoliohmwrk
 
 Deployed URL: https://bergannation.github.io/02_portfoliohmwrk/
 
