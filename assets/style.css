@@ -108,6 +108,7 @@ li:hover a:before {
 /*Main background image */
 .background {
   background-image: url("./images/background5.jfif");
+  background-position: center top;
 }
 /* Header and paragraph font settings */
 h2 {
@@ -316,7 +317,7 @@ p {
     flex-direction: column;
   }
   #worksection .project1 img {
-    height: 150px;
+    height: 250px;
   }
   .image2,
   .image3,
@@ -335,9 +336,12 @@ p {
     flex-direction: column;
   }
 }
-@media screen and (max-width: 481px) {
+@media screen and (max-width: 500px) {
   #worksection {
     display: flex;
     flex-direction: column;
+  }
+  #worksection .project1 img {
+    height: 150px;
   }
 }
