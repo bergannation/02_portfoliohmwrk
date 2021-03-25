@@ -29,15 +29,11 @@
 .all:hover .text {
   opacity: 1;
 }
+
 .all:hover > a {
   opacity: 1;
   transition-delay: 0s;
 }
-.all:hover > div {
-  opacity: 1;
-  transition-delay: 0s;
-}
-
 .all:hover .explainer {
   opacity: 0;
 }

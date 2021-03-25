@@ -66,8 +66,9 @@ header a {
 
 /*Main background image */
 .background {
-  background-image: url("./images/new2.jpg");
+  background-image: url("./images/background2.jfif");
   background-position: center top;
+  background-size: cover;
 }
 /* Header and paragraph font settings */
 h2 {
@@ -191,10 +192,13 @@ p {
     background-image: url("./images/headernew.png");
     display: flex;
     flex-direction: column;
+    background-position: center top;
+    background-size: cover;
   }
   .background {
     background-image: url("./images/new2.jpg");
     font-size: 1em;
+    background-position: center top;
   }
   header img {
     align-self: center;

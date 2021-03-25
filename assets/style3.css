@@ -1,4 +1,4 @@
-/* Main Title CSS only */
+/* Main Title glow CSS only */
 body section #shadow {
   position: relative;
   top: 50%;
@@ -55,6 +55,8 @@ body section #shadow {
   92.5% {
     opacity: 1;
   }
+
+  /* Navigation bar buttons */
 }
 #testbutton,
 #testbutton2,
@@ -205,6 +207,7 @@ body section #shadow {
   left: 4%;
   background-color: rgb(19, 20, 22);
 }
+/* Media Q for navigation buttons to shrink */
 @media screen and (max-width: 1420px) {
   nav {
   }
