@@ -147,16 +147,16 @@ p {
   color: #fff;
   border-radius: 10px;
   display: inline-block;
+  box-shadow: 0 1px 3px rgb(29, 77, 179), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
+
 .image1:hover,
 .image2:hover,
 .image3:hover,
 .image4:hover,
 .image5:hover {
-  -webkit-box-shadow: 0px 0px 50px 0px rgb(29, 77, 179);
-  -moz-box-shadow: 0px 0px 50px 0px rgb(29, 77, 179);
-  box-shadow: 0px 0px 50px 0px rgb(29, 77, 179);
-  transition: 0.5s ease;
+  box-shadow: 0 14px 28px rgb(29, 77, 179), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
 /* Contact me Section */
