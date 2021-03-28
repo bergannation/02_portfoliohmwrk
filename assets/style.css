@@ -36,7 +36,7 @@ nav {
   align-content: center;
 }
 
-ul {
+nav ul {
   list-style-type: none;
   padding: 0;
   display: flex;
@@ -47,7 +47,7 @@ ul {
   width: 100%;
 }
 
-li {
+nav li {
   position: relative;
   display: flex;
   margin-left: 25px;
@@ -71,6 +71,18 @@ header a {
   background-size: cover;
 }
 /* Header and paragraph font settings */
+.paragraphs ul {
+  color: white;
+  margin: 0px 90px;
+  list-style: none;
+  line-height: 1.5rem;
+  font-weight: 700;
+}
+.paragraphs li:before {
+  content: "\25c9";
+  margin-right: 10px;
+  color: white;
+}
 h2 {
   font-size: 52px;
   text-align: center;
