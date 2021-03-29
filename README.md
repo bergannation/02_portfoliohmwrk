@@ -65,3 +65,6 @@ The following image shows the web application's appearance and functionality:
 
 Amazing Techno Tutorials
 https://www.youtube.com/channel/UCX6g7OirMyfEBn5Oxqu-wGA
+
+Andy Merskin
+Parallax Depth Cards (Project Cards)
