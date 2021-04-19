@@ -320,6 +320,12 @@ p + p {
   background-position: top center;
   background-size: cover;
 }
+.image6 .card-wrap .card {
+  background-image: url(./images/capture3.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
 .image7 .card-wrap .card {
   background-image: url(./images/screencapture15.png);
   background-repeat: no-repeat;
@@ -384,6 +390,10 @@ p + p {
   text-shadow: rgba(0, 0, 0, 0.5) 0 60px 60px;
 }
 .image7 .card-info h1 {
+  padding-bottom: 15px;
+  color: rgba(0, 0, 0, 0.6);
+}
+.image6 .card-info h1 {
   padding-bottom: 15px;
   color: rgba(0, 0, 0, 0.6);
 }
