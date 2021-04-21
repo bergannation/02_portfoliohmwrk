@@ -320,6 +320,12 @@ p + p {
   background-position: top center;
   background-size: cover;
 }
+.image5 .card-wrap .card {
+  background-image: url(./images/capture4.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
 .image6 .card-wrap .card {
   background-image: url(./images/capture3.png);
   background-repeat: no-repeat;
@@ -396,6 +402,10 @@ p + p {
 .image6 .card-info h1 {
   padding-bottom: 15px;
   color: rgba(0, 0, 0, 0.6);
+}
+.image5 .card-info h1 {
+  padding-bottom: 15px;
+  color: white;
 }
 /* Media Q for navigation buttons to shrink */
 @media screen and (max-width: 1420px) {
