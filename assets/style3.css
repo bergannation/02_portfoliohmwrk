@@ -338,6 +338,12 @@ p + p {
   background-position: center center;
   background-size: cover;
 }
+.image1 .card-wrap .card {
+  background-image: url(./images/capture5.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
 
 .card-bg {
   opacity: 0.5;

@@ -51,7 +51,6 @@ nav ul {
 nav li {
   position: relative;
   display: flex;
-  margin-left: 25px;
   padding: 0 10px;
   height: 100%;
 }
