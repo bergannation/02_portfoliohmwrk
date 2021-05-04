@@ -92,8 +92,12 @@ h2 {
 }
 
 h3 {
+  display: flex;
+  align-self: center;
   color: white;
-  font-size: 28px;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 80px;
 }
 p {
   color: white;
@@ -178,7 +182,6 @@ p {
 
   h3 {
     font-size: 1em;
-    margin: 10px 0px 10px 0px;
   }
   .contactheader {
     display: flex;

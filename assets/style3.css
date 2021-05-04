@@ -315,7 +315,7 @@ p + p {
 .image1 .card-wrap .card {
   height: 400px;
   width: 300px;
-  background-image: url(./images/screencapture.png);
+  background-image: url(./images/capture5.png);
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
@@ -334,12 +334,6 @@ p + p {
 }
 .image7 .card-wrap .card {
   background-image: url(./images/screencapture15.png);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-}
-.image1 .card-wrap .card {
-  background-image: url(./images/capture5.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
