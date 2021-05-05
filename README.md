@@ -59,10 +59,10 @@ The following image shows the web application's appearance and functionality:
 
 When a user hovers over each project card, the name and GitHub Repo button presents itself. Any user can click on the button to be taken to the GitHub Repo URL.:
 
-![The Portfolio webpage includes a navigation bar, a header profile image, an "About Me", "My Works", and a "Contact Me" section. Each section includes text and images.](./assets/images/capture8.png)
+![The Portfolio webpage includes a navigation bar, a header profile image, an "About Me", "My Works", and a "Contact Me" section. Each section includes text and images.](./assets/images/capture10.png)
 
 When a user hovers over the Contact Me section, they will be presented with Buttons that link to my GitHub, LinkedIn, Resume, Twitter, & Twitch.
 
-![The Portfolio webpage includes a navigation bar, a header profile image, an "About Me", "My Works", and a "Contact Me" section. Each section includes text and images.](./assets/images/capture7.png)
+![The Portfolio webpage includes a navigation bar, a header profile image, an "About Me", "My Works", and a "Contact Me" section. Each section includes text and images.](./assets/images/capture9.png)
 
 ## Credits
