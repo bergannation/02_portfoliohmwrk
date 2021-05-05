@@ -209,7 +209,7 @@ body section #shadow {
   left: 4%;
   background-color: rgb(19, 20, 22);
 }
-
+/* END OF NAVIGATION */
 /* My Portfolio Works Section */
 body {
   font-family: "Raleway";
@@ -265,6 +265,7 @@ p + p {
   grid-column: 3/4;
   grid-row: 3/4;
 }
+
 .card-wrap {
   margin: 10px;
   transform: perspective(800px);
@@ -275,11 +276,8 @@ p + p {
 .card-wrap:hover .card-info {
   transform: translateY(0);
 }
-.card-wrap:hover .card-info p {
-  opacity: 1;
-}
-.card-wrap:hover .card-info,
-.card-wrap:hover .card-info p {
+
+.card-wrap:hover .card-info {
   transition: 0.6s cubic-bezier(0.23, 1, 0.32, 1);
 }
 .card-wrap:hover .card-info:after {
@@ -312,6 +310,7 @@ p + p {
     inset rgba(255, 255, 255, 0.5) 0 0 0 6px;
   transition: 1s cubic-bezier(0.445, 0.05, 0.55, 0.95);
 }
+/* Project Card images */
 .image1 .card-wrap .card {
   height: 400px;
   width: 300px;
@@ -320,19 +319,19 @@ p + p {
   background-position: top center;
   background-size: cover;
 }
-.image5 .card-wrap .card {
+.image2 .card-wrap .card {
   background-image: url(./images/capture4.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
 }
-.image6 .card-wrap .card {
+.image3 .card-wrap .card {
   background-image: url(./images/capture3.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
 }
-.image7 .card-wrap .card {
+.image4 .card-wrap .card {
   background-image: url(./images/screencapture15.png);
   background-repeat: no-repeat;
   background-position: center center;
@@ -359,11 +358,6 @@ p + p {
   bottom: 0;
   color: #fff;
   transform: translateY(40%);
-  transition: 0.6s 1.6s cubic-bezier(0.215, 0.61, 0.355, 1);
-}
-.card-info p {
-  opacity: 0;
-  text-shadow: black 0 2px 3px;
   transition: 0.6s 1.6s cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 .card-info * {
@@ -395,18 +389,23 @@ p + p {
   font-weight: 700;
   text-shadow: rgba(0, 0, 0, 0.5) 0 60px 60px;
 }
-.image7 .card-info h1 {
+.image1 .card-info h1 {
   padding-bottom: 15px;
-  color: rgba(0, 0, 0, 0.6);
+  color: black;
 }
-.image6 .card-info h1 {
-  padding-bottom: 15px;
-  color: rgba(0, 0, 0, 0.6);
-}
-.image5 .card-info h1 {
+.image2 .card-info h1 {
   padding-bottom: 15px;
   color: white;
 }
+.image3 .card-info h1 {
+  padding-bottom: 15px;
+  color: black;
+}
+.image4 .card-info h1 {
+  padding-bottom: 15px;
+  color: black;
+}
+
 /* Media Q for navigation buttons to shrink */
 
 @media screen and (max-width: 1140px) {
@@ -416,4 +415,104 @@ p + p {
     flex-wrap: wrap;
     justify-content: center;
   }
+}
+
+/* Buttons on the project cards */
+.custom-btn {
+  width: 130px;
+  height: 40px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  outline: none;
+}
+.btn-11 {
+  border: none;
+  background: black;
+  background: radial-gradient(circle at center top, #cce, #33a);
+  color: #fff;
+  overflow: hidden;
+}
+.btn-11:hover {
+  text-decoration: none;
+  color: #fff;
+}
+.btn-11:before {
+  position: absolute;
+  content: "";
+  display: inline-block;
+  top: -180px;
+  left: 0;
+  width: 30px;
+  height: 100%;
+  background-color: #fff;
+  animation: shiny-btn1 3s ease-in-out infinite;
+}
+.btn-11:hover {
+  opacity: 0.7;
+}
+.btn-11:active {
+  box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, 0.3),
+    -4px -4px 6px 0 rgba(116, 125, 136, 0.2),
+    inset -4px -4px 6px 0 rgba(255, 255, 255, 0.2),
+    inset 4px 4px 6px 0 rgba(0, 0, 0, 0.2);
+}
+
+@-webkit-keyframes shiny-btn1 {
+  0% {
+    -webkit-transform: scale(0) rotate(45deg);
+    opacity: 0;
+  }
+  80% {
+    -webkit-transform: scale(0) rotate(45deg);
+    opacity: 0.5;
+  }
+  81% {
+    -webkit-transform: scale(4) rotate(45deg);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(50) rotate(45deg);
+    opacity: 0;
+  }
+}
+/* main project card button */
+.btn1 {
+  cursor: pointer;
+  margin-top: 2.5rem;
+  padding: 0.75rem 1.5rem;
+  font-size: 0.65rem;
+  font-weight: bold;
+  letter-spacing: 0.075rem;
+  text-transform: uppercase;
+  color: white;
+  background-color: black;
+  border: none;
+}
+.btn1:hover {
+  background-color: #0d0d0d;
+}
+/* Rest of project card buttons */
+.btn {
+  cursor: pointer;
+  margin-top: 1.3rem;
+  padding: 0.75rem 1.5rem;
+  font-size: 0.65rem;
+  font-weight: bold;
+  letter-spacing: 0.075rem;
+  text-transform: uppercase;
+  color: white;
+  background-color: black;
+  border: none;
+}
+.btn:hover {
+  background-color: #0d0d0d;
 }
