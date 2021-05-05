@@ -6,10 +6,6 @@
 
 A portfolio of work can showcase your skills and talents to employers looking to fill a part-time or full-time position. An effective portfolio highlights your strongest work as well as the thought processes behind it. Students who have portfolios with deployed web applications (meaning they are live on the web) are typically very successful in their career search after the boot camp. This last point can’t be stressed enough: having several deployed projects is a minimum requirement to receive an initial interview at many companies.
 
-With these points in mind, in this homework you’ll set yourself up for future success by applying the core skills you've recently learned: flexbox, media queries, and CSS variables. You'll get to practice your new skills while creating something that you will use during your job search. It’s a win-win that you'll likely be grateful for in the future!
-
-This week, you'll build a portfolio page, which you can add to as the course progresses.
-
 ## User Story
 
 ```
@@ -61,10 +57,12 @@ The following image shows the web application's appearance and functionality:
 
 ![The Portfolio webpage includes a navigation bar, a header profile image, an "About Me", "My Works", and a "Contact Me" section. Each section includes text and images.](./assets/images/screencapture4.png) ![This is also a screencapture from a smaller device](./assets/images/screencapture3.png)
 
+When a user hovers over each project card, the name and GitHub Repo button presents itself. Any user can click on the button to be taken to the GitHub Repo URL.:
+
+![The Portfolio webpage includes a navigation bar, a header profile image, an "About Me", "My Works", and a "Contact Me" section. Each section includes text and images.](./assets/images/capture8.png)
+
+When a user hovers over the Contact Me section, they will be presented with Buttons that link to my GitHub, LinkedIn, Resume, Twitter, & Twitch.
+
+![The Portfolio webpage includes a navigation bar, a header profile image, an "About Me", "My Works", and a "Contact Me" section. Each section includes text and images.](./assets/images/capture7.png)
+
 ## Credits
-
-Amazing Techno Tutorials
-https://www.youtube.com/channel/UCX6g7OirMyfEBn5Oxqu-wGA
-
-Andy Merskin
-Parallax Depth Cards (Project Cards)
