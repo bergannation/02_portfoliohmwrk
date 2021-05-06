@@ -236,6 +236,7 @@ p + p {
   align-items: center;
   grid-gap: 50px;
 }
+
 .container .image1 {
   grid-column: 2/3;
   grid-row: 1/2;
@@ -423,10 +424,11 @@ p + p {
   height: 40px;
   color: #fff;
   border-radius: 5px;
-  padding: 10px 25px;
-  font-weight: 500;
   background: transparent;
   cursor: pointer;
+  font-family: "Raleway";
+  -webkit-font-smoothing: antialiased;
+
   transition: all 0.3s ease;
   position: relative;
   display: inline-block;
@@ -444,6 +446,7 @@ p + p {
 .btn-11:hover {
   text-decoration: none;
   color: #fff;
+  opacity: 0.7;
 }
 .btn-11:before {
   position: absolute;
@@ -455,9 +458,6 @@ p + p {
   height: 100%;
   background-color: #fff;
   animation: shiny-btn1 3s ease-in-out infinite;
-}
-.btn-11:hover {
-  opacity: 0.7;
 }
 .btn-11:active {
   box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, 0.3),

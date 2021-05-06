@@ -63,6 +63,7 @@ header a {
   font-size: 40px;
   padding: 20px 5px;
 }
+/* end of nav */
 
 /*Main background image */
 .background {
@@ -70,18 +71,18 @@ header a {
   background-position: center top;
   background-size: cover;
 }
-/* Header and paragraph font settings */
-.paragraphs ul {
+/* H2 & H3 and List font settings */
+.info ul {
   color: white;
   margin: 0px 90px;
   list-style: none;
   line-height: 1.5rem;
-  font-weight: 700;
 }
-.paragraphs li:before {
+.info li:before {
   content: "\25c9";
   margin-right: 10px;
   color: white;
+  line-height: 1.7;
 }
 h2 {
   font-size: 52px;
@@ -99,14 +100,79 @@ h3 {
   font-weight: 400;
   margin-top: 50px;
 }
-p {
-  color: white;
+#shadow {
   margin: 0px 40px;
-  font-size: 18px;
   text-align: center;
 }
 
-/* My Portfolio Works Section */
+/* My About Me/Experience Section */
+.about-me {
+  overflow: hidden;
+}
+
+.about-me .info {
+  width: 100%;
+}
+
+.about-me .info h2 {
+  margin: 20px 0 20px 40px;
+  color: white;
+}
+.about-me .info > p {
+  margin: 0 0 10px 40px;
+}
+.about-me .info > p:last-of-type {
+  margin-top: 10px;
+}
+.about-me .info p {
+  line-height: 1.5;
+  color: white;
+  margin-top: 10px;
+}
+.about-me .info .hobbies {
+  overflow: hidden;
+  padding: 40px 80px;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(2, auto);
+  justify-content: center;
+  grid-gap: 50px;
+}
+.about-me .info .hobbies .content {
+  box-sizing: border-box;
+  float: left;
+  width: 50%;
+  padding: 2% 1%;
+  overflow: hidden;
+  width: 100%;
+}
+.about-me .info .hobbies .content h3 {
+  color: white;
+  margin: 0px;
+  font-weight: 600;
+  font-size: 2em;
+}
+.about-me .info .hobbies .content .icon {
+  float: left;
+  width: 12%;
+}
+.about-me .info .hobbies .content .icon i {
+  max-width: 100%;
+  padding-top: 10px;
+}
+.about-me .info .hobbies .content .texts {
+  width: 84%;
+}
+
+.logos {
+  height: 50px;
+  width: 50px;
+  margin: 0 10px;
+}
+hr {
+  margin: 0 80px;
+}
+/* End About Me */
 
 /* Contact me Section */
 #contactheader {
