@@ -16,6 +16,7 @@ header {
     "Lucida Sans", Arial, sans-serif;
   color: #ffffff;
 }
+/* nav bar background image */
 #header-background {
   background-image: url("./images/background8.jpg");
   width: 100%;

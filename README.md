@@ -66,3 +66,7 @@ When a user hovers over the Contact Me section, they will be presented with Butt
 ![The Portfolio webpage includes a navigation bar, a header profile image, an "About Me", "My Works", and a "Contact Me" section. Each section includes text and images.](./assets/images/capture9.png)
 
 ## Credits
+
+Amazing Techno Tutorials-Youtube
+
+Parallax Depth Tutorials-Andy Merskin

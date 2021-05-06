@@ -406,18 +406,6 @@ p + p {
   padding-bottom: 15px;
   color: black;
 }
-
-/* Media Q for navigation buttons to shrink */
-
-@media screen and (max-width: 1140px) {
-  .container {
-    padding: 40px 80px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-}
-
 /* Buttons on the project cards */
 .custom-btn {
   width: 130px;
@@ -515,4 +503,34 @@ p + p {
 }
 .btn:hover {
   background-color: #0d0d0d;
+}
+
+/* Media Q for navigation buttons to shrink */
+
+@media screen and (max-width: 1140px) {
+  .container {
+    padding: 40px 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+/* media Q for Experience section to shrink */
+@media screen and (max-width: 375px) {
+  .about-me .info .hobbies {
+    padding: 0px;
+    font-size: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 775px) {
+  .about-me .info .hobbies {
+    padding: 0px;
+    font-size: 14px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
