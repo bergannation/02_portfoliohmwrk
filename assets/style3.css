@@ -339,6 +339,13 @@ p + p {
   background-size: cover;
 }
 
+.image5 .card-wrap .card {
+  background-image: url(./images/familysky.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
 .card-bg {
   opacity: 0.5;
   position: absolute;
@@ -403,6 +410,10 @@ p + p {
   color: black;
 }
 .image4 .card-info h1 {
+  padding-bottom: 15px;
+  color: black;
+}
+.image5 .card-info h1 {
   padding-bottom: 15px;
   color: black;
 }
