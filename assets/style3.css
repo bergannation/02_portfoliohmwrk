@@ -313,34 +313,33 @@ p + p {
 }
 /* Project Card images */
 .image1 .card-wrap .card {
+  background-image: url(./images/familysky.jpg);
   height: 400px;
   width: 300px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.image2 .card-wrap .card {
   background-image: url(./images/capture6.png);
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
 }
-.image2 .card-wrap .card {
+.image3 .card-wrap .card {
   background-image: url(./images/capture4.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
 }
-.image3 .card-wrap .card {
+.image4 .card-wrap .card {
   background-image: url(./images/capture3.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
 }
-.image4 .card-wrap .card {
-  background-image: url(./images/screencapture15.png);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-}
-
 .image5 .card-wrap .card {
-  background-image: url(./images/familysky.jpg);
+  background-image: url(./images/screencapture15.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -403,11 +402,11 @@ p + p {
 }
 .image2 .card-info h1 {
   padding-bottom: 15px;
-  color: white;
+  color: black;
 }
 .image3 .card-info h1 {
   padding-bottom: 15px;
-  color: black;
+  color: white;
 }
 .image4 .card-info h1 {
   padding-bottom: 15px;
