@@ -344,6 +344,12 @@ p + p {
   background-position: center center;
   background-size: cover;
 }
+.image6 .card-wrap .card {
+  background-image: url(./images/notetaker.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
 
 .card-bg {
   opacity: 0.5;
@@ -413,6 +419,10 @@ p + p {
   color: black;
 }
 .image5 .card-info h1 {
+  padding-bottom: 15px;
+  color: black;
+}
+.image6 .card-info h1 {
   padding-bottom: 15px;
   color: black;
 }
