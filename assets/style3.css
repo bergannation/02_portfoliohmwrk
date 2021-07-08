@@ -313,12 +313,8 @@ p + p {
 }
 /* Project Card images */
 .image1 .card-wrap .card {
-  background-image: url(./images/familysky.jpg);
   height: 400px;
   width: 300px;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
 }
 .image2 .card-wrap .card {
   background-image: url(./images/capture6.png);
